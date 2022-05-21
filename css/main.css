@@ -80,7 +80,7 @@ body {
   color: #070C11;
 }
 
-body.lock {
+body .lock {
   overflow: hidden;
 }
 
