@@ -1,0 +1,129 @@
+.footer {
+  margin-top: 80px;
+  padding-top: 50px;
+  background: #EDF2F6;
+}
+
+.footer .logo {
+  margin: 0;
+}
+
+.footer-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+.footer-content__column {
+  width: 25%;
+  padding-right: 20px;
+}
+.footer-content__title {
+  margin-bottom: 20px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 100%;
+  color: #838688;
+}
+.footer-content__text-item {
+  margin-bottom: 10px;
+}
+.footer-content__text-link:hover {
+  color: #2a5275;
+}
+
+.footer .logo {
+  margin-bottom: 20px;
+}
+
+.footer .contact {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.footer .contact__contact-item {
+  margin-bottom: 10px;
+}
+
+.adress__item {
+  margin-bottom: 10px;
+}
+
+.footer-soc {
+  fill: #4878A6;
+  width: 20px;
+  height: 20px;
+}
+
+.footer-bottom {
+  margin-top: 40px;
+  padding: 35px 0;
+  border-top: 1px solid #c8cacb;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+.footer-bottom__text-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+.footer-bottom__text-paragraph {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  color: #838688;
+}
+.footer-bottom__social-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-bottom: -25px;
+}
+.footer-bottom__social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.footer-bottom__social-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  margin-left: 30px;
+}
+.footer-bottom__social-img:first-child {
+  margin-left: 0;
+}
+.footer-bottom__social-img:hover .footer-soc {
+  fill: #2a5275;
+}
+.footer-bottom__text-link {
+  font-family: "Roboto-Regular", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #838688;
+}
+/*# sourceMappingURL=footer.css.map */
